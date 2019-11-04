@@ -33,10 +33,11 @@ end
     batch_badge_creator(names).each do |badge| 
       puts badge 
     end
+  
     assign_rooms(names).each do |assignmemt|
       puts assignmemt
     end
-  
+  end
   
   
   
