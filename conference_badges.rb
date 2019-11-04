@@ -30,11 +30,12 @@ def batch_badge_creator(names)
 end
   
   def printer(names)
-    batch_badge_creator(names)
-    assign_rooms(names)
-    
-    
-  end
+    batch_badge_creator(names).each do |badge| 
+      puts badge 
+    end
+    assign_rooms(names).each do |assignmemt|
+      puts assignmemt
+    end
   
   
   
