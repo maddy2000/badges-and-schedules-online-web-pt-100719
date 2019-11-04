@@ -15,7 +15,7 @@ def badge_maker(name)
   def assign_rooms(names)
     new_array=[]
       names.each_with_index do |name, index|
-        new_array << "Hello, my name is #{name}. You'll be assigned to room #{index}!"
+        new_array << "Hello, #{name}!. You'll be assigned to room #{index}!"
   
   end  
   return new_array
